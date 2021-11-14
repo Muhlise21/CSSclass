@@ -1,0 +1,30 @@
+.container{
+    border: 1rem solid gray;
+    display: flex;
+    height: 500px;
+    justify-content: center ;
+    /* flex-wrap: wrap; */
+    align-items: center ;
+}
+/* 
+    1.flex-direction: row; defaultu row`dur 
+    2.justify-content: main üzerinde hizalar;
+    */
+
+.flexbox-item{
+    background-color: rgb(201, 145, 61);
+    width: 200px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.item1{
+    min-height: 100px;
+    /* align-self: flex-start; konum degisikligi icin kullaniliyor */
+}
+.item2{
+    min-height: 200px;
+    /* align-self: flex-start;konum degisikligi icin kullaniliyor */
+}
+.item3{
+    min-height: 300px;
+}
